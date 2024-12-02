@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Configurations>CreamPies;UpNAtom</Configurations>
+    <Configurations>CreamPies;UpNAtom;UWUCAFE</Configurations>
     <Platforms>x64</Platforms>
     <BaseOutputPath>B:\Github\register-calculator\register-calculator\register-calculator\build</BaseOutputPath>
     <SignAssembly>False</SignAssembly>
@@ -20,9 +20,18 @@
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWUCAFE|x64'">
+    <DebugType>none</DebugType>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UpNAtom|x64'">
     <DebugType>none</DebugType>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="68188c29ac22788c429abaf414f8c62c.ico" />
+  </ItemGroup>
 
 </Project>

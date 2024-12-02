@@ -48,6 +48,23 @@ namespace register_calculator
             menuItems.Add(new MenuItems("ac", "Arcade Card", 500));
 #endif
 
+#if UWUCAFE
+            menuItems.Add(new MenuItems("cms", "Chocolate Marshmallows Sandy", 100));
+            menuItems.Add(new MenuItems("vms", "Vanilla Marshmallows Sandy", 100));
+            menuItems.Add(new MenuItems("cupcake", "Cupcake", 150));
+            menuItems.Add(new MenuItems("savorypancake", "Savory Pancake", 150));
+            menuItems.Add(new MenuItems("budhabowl", "Budha Bowl", 200));
+            menuItems.Add(new MenuItems("sushi", "Sushi", 150));
+            menuItems.Add(new MenuItems("misosoup", "Miso Soup", 300));
+            menuItems.Add(new MenuItems("mintybt", "Minty Boba-Tea", 100));
+            menuItems.Add(new MenuItems("berrybt", "Berry Boba-Tea", 150));
+            menuItems.Add(new MenuItems("roseybt", "Rosey Boba-Tea", 100));
+            menuItems.Add(new MenuItems("angelset", "Angel Set", 4000));
+            menuItems.Add(new MenuItems("sushiset", "Sushi Set", 3000));
+            menuItems.Add(new MenuItems("sweetset", "Sweetie Set", 3000));
+            menuItems.Add(new MenuItems("bentobox", "Bentoboxes", 2000));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {

@@ -9,12 +9,15 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CreamPies|x64 = CreamPies|x64
 		UpNAtom|x64 = UpNAtom|x64
+		UWUCAFE|x64 = UWUCAFE|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.ActiveCfg = CreamPies|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.Build.0 = CreamPies|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.UpNAtom|x64.ActiveCfg = UpNAtom|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.UpNAtom|x64.Build.0 = UpNAtom|x64
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.UWUCAFE|x64.ActiveCfg = UWUCAFE|x64
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.UWUCAFE|x64.Build.0 = UWUCAFE|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
