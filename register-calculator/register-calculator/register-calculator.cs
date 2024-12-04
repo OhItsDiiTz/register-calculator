@@ -65,6 +65,17 @@ namespace register_calculator
             menuItems.Add(new MenuItems("bentobox", "Bentoboxes", 2000));
 #endif
 
+#if MATERIALS
+            menuItems.Add(new MenuItems("glass", "Glass", 10));
+            menuItems.Add(new MenuItems("plastic", "Plastic", 10));
+            menuItems.Add(new MenuItems("steel", "Steel", 10));
+            menuItems.Add(new MenuItems("iron", "Iron", 10));
+            menuItems.Add(new MenuItems("copper", "Copper", 10));
+            menuItems.Add(new MenuItems("metal_scrap", "Metal Scrap", 15));
+            menuItems.Add(new MenuItems("aluminium", "Aluminium", 12));
+            menuItems.Add(new MenuItems("rubber", "Rubber", 25));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {
@@ -102,7 +113,12 @@ namespace register_calculator
             this.Text = "CreamPies";
 #elif UPNATOM
             this.Text = "Up N Atom Calculator";
+#elif UWUCAFE
+            this.Text = "UWU Cafe";
+#elif MATERIALS
+            this.Text = "Materials";
 #endif
+
 
         }
 
