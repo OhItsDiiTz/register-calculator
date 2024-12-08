@@ -76,6 +76,21 @@ namespace register_calculator
             menuItems.Add(new MenuItems("rubber", "Rubber", 25));
 #endif
 
+#if BURGERSHOT
+            menuItems.Add(new MenuItems("hs", "Heartstopper", 250));
+            menuItems.Add(new MenuItems("if", "Itadory Fries", 300));
+            menuItems.Add(new MenuItems("pb", "Peta Burger", 150));
+            menuItems.Add(new MenuItems("fb", "Fifty's Burger", 150));
+            menuItems.Add(new MenuItems("tt", "The Torpedo", 165));
+            menuItems.Add(new MenuItems("sb", "Stroke Burger", 175));
+            menuItems.Add(new MenuItems("ms", "Money Shot", 150));
+            menuItems.Add(new MenuItems("gg", "Glizzy Gobbler", 650));
+            menuItems.Add(new MenuItems("te", "Ty's Ex", 200));
+            menuItems.Add(new MenuItems("bb", "Big Boi", 250));
+            menuItems.Add(new MenuItems("ns", "Nut's Shake", 200));
+            menuItems.Add(new MenuItems("sd", "Soft Drink", 250));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {

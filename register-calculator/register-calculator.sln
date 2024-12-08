@@ -7,12 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "register-calculator", "regi
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BurgerShot|x64 = BurgerShot|x64
 		CreamPies|x64 = CreamPies|x64
 		Materials|x64 = Materials|x64
 		UpNAtom|x64 = UpNAtom|x64
 		UWUCAFE|x64 = UWUCAFE|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.BurgerShot|x64.ActiveCfg = BurgerShot|x64
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.BurgerShot|x64.Build.0 = BurgerShot|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.ActiveCfg = CreamPies|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.Build.0 = CreamPies|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.Materials|x64.ActiveCfg = Materials|x64
