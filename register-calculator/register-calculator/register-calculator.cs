@@ -91,6 +91,17 @@ namespace register_calculator
             menuItems.Add(new MenuItems("sd", "Soft Drink", 250));
 #endif
 
+#if HOGSPUB
+            menuItems.Add(new MenuItems("cf", "Chocolate Frogs", 300));
+            menuItems.Add(new MenuItems("bb", "Butterbeer", 300));
+            menuItems.Add(new MenuItems("ogjv", "OG Juice Vape", 300));
+            menuItems.Add(new MenuItems("ebf", "Everything Bean Flavour", 300));
+            menuItems.Add(new MenuItems("lep", "Lizzys Enchanted Potion", 300));
+            menuItems.Add(new MenuItems("lgof", "Lizzys Goblet of Fire", 300));
+            menuItems.Add(new MenuItems("gw", "Grizzwoods", 300));
+            menuItems.Add(new MenuItems("rd", "Rusty Dust", 200));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {
@@ -132,6 +143,10 @@ namespace register_calculator
             this.Text = "UWU Cafe";
 #elif MATERIALS
             this.Text = "Materials";
+#elif BURGERSHOT
+            this.Text = "Burger Shot";
+#elif HOGSPUB
+            this.Text = "Hogs Pub & Restaurant";
 #endif
 
 

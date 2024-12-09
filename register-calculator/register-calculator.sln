@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		BurgerShot|x64 = BurgerShot|x64
 		CreamPies|x64 = CreamPies|x64
+		HogsPub|x64 = HogsPub|x64
 		Materials|x64 = Materials|x64
 		UpNAtom|x64 = UpNAtom|x64
 		UWUCAFE|x64 = UWUCAFE|x64
@@ -18,6 +19,8 @@ Global
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.BurgerShot|x64.Build.0 = BurgerShot|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.ActiveCfg = CreamPies|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.CreamPies|x64.Build.0 = CreamPies|x64
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.HogsPub|x64.ActiveCfg = HogsPub|x64
+		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.HogsPub|x64.Build.0 = HogsPub|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.Materials|x64.ActiveCfg = Materials|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.Materials|x64.Build.0 = Materials|x64
 		{C8B0B3A3-637C-4051-89E5-ECFCB57C2A2B}.UpNAtom|x64.ActiveCfg = UpNAtom|x64
