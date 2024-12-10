@@ -112,7 +112,7 @@ namespace register_calculator
                 ((System.ComponentModel.ISupportInitialize)(numeric_up_down)).BeginInit();
 
                 numeric_up_down.Location = new System.Drawing.Point(12, 27 + (count * 26));
-                numeric_up_down.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
+                numeric_up_down.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
                 numeric_up_down.Name = item.ShortName;
                 numeric_up_down.Size = new System.Drawing.Size(67, 20);
                 numeric_up_down.TabIndex = 34 + count;
