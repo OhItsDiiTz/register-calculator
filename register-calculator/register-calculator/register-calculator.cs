@@ -102,6 +102,41 @@ namespace register_calculator
             menuItems.Add(new MenuItems("rd", "Rusty Dust", 200));
 #endif
 
+#if BAHAMAMAMAS
+            menuItems.Add(new MenuItems("ajs", "Angelic Jell-O shot", 100));
+            menuItems.Add(new MenuItems("br", "Black Russian", 150));
+            menuItems.Add(new MenuItems("rose", "Rosè", 200));
+            menuItems.Add(new MenuItems("pbm", "Playboy Martini", 250));
+            menuItems.Add(new MenuItems("azv", "Azul vodka", 300));
+            menuItems.Add(new MenuItems("maitai", "Mai Tai", 300));
+            menuItems.Add(new MenuItems("redwine", "Red Wine", 350));
+            menuItems.Add(new MenuItems("nikkirita", "Nikki Rita", 400));
+            menuItems.Add(new MenuItems("bsb", "Bahamas signature Bacardi", 450));
+            menuItems.Add(new MenuItems("henny", "Henny", 500));
+            menuItems.Add(new MenuItems("juansof", "Juans Old Fashioned", 500));
+            menuItems.Add(new MenuItems("brianswaste", "Brians Waste", 550));
+            menuItems.Add(new MenuItems("1942don", "1942 Don", 1000));
+            menuItems.Add(new MenuItems("comebackcrackle", "Come Back Crackle Jacks", 100));
+            menuItems.Add(new MenuItems("backbreakerbacon", "Back Breaker Bacon", 150));
+            menuItems.Add(new MenuItems("ischs", "I Should Call Her Salad", 200));
+            menuItems.Add(new MenuItems("bamiastew", "Bamia stew", 200));
+            menuItems.Add(new MenuItems("juanslasagna", "Juan’s Lasagna", 200));
+            menuItems.Add(new MenuItems("skyclubwings", "Skyclub Wings", 250));
+            menuItems.Add(new MenuItems("missherdearmeat", "Miss Her Dear Meat", 250));
+            menuItems.Add(new MenuItems("infusedlimoncello", "Infused Limoncello Sorbet", 300));
+            menuItems.Add(new MenuItems("juanpizza", "Juan’s Pizza", 300));
+            menuItems.Add(new MenuItems("stikkinikki", "Stikki Nikki", 300));
+            menuItems.Add(new MenuItems("briansbrains", "Brians Brains", 400));
+            menuItems.Add(new MenuItems("allavodka", "Alla Vodka", 500));
+#endif
+#if TACOSHOP
+            menuItems.Add(new MenuItems("sms", "Special Mandarin Soda", 150));
+            menuItems.Add(new MenuItems("fps", "Fruit Punch Soda", 200));
+            menuItems.Add(new MenuItems("at", "Asian Tacos", 200));
+            menuItems.Add(new MenuItems("ae", "Asian Enchiladas", 200));
+            menuItems.Add(new MenuItems("asiantamales", "Asian Tamales", 150));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {
@@ -147,6 +182,10 @@ namespace register_calculator
             this.Text = "Burger Shot";
 #elif HOGSPUB
             this.Text = "Hogs Pub & Restaurant";
+#elif BAHAMAMAMAS
+            this.Text = "Bahama Mamas";
+#elif TACOSHOP
+            this.Text = "Taco Shop";
 #endif
 
 
