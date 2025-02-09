@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Configurations>CreamPies;UpNAtom;UWUCAFE;Materials;BurgerShot;HogsPub;BahamaMamas;TacoShop</Configurations>
+    <Configurations>CreamPies;UpNAtom;UWUCAFE;Materials;BurgerShot;HogsPub;BahamaMamas;TacoShop;PopsDiner</Configurations>
     <Platforms>x64</Platforms>
     <SignAssembly>False</SignAssembly>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
@@ -36,6 +36,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BurgerShot|x64'">
+    <DebugType>none</DebugType>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PopsDiner|x64'">
     <DebugType>none</DebugType>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>

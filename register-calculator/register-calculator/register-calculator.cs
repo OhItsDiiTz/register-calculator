@@ -137,6 +137,19 @@ namespace register_calculator
             menuItems.Add(new MenuItems("asiantamales", "Asian Tamales", 150));
 #endif
 
+#if POPSDINER
+            menuItems.Add(new MenuItems("ale", "ALE 7", 200));
+            menuItems.Add(new MenuItems("hottoddy", "HOT TODDY", 200));
+            menuItems.Add(new MenuItems("3way", "3-WAY", 225));
+            menuItems.Add(new MenuItems("4way", "4-WAY", 250));
+            menuItems.Add(new MenuItems("goettabsandwich", "GOETTA BREAKFAST SANDWICH", 200));
+            menuItems.Add(new MenuItems("redsgrandslam", "REDS GRAND SLAM", 200));
+            menuItems.Add(new MenuItems("montyinribs", "MONTY INN RIBS", 200));
+            menuItems.Add(new MenuItems("grippers", "GRIPPERS", 175));
+            menuItems.Add(new MenuItems("popsxuwubobatea", "POPSxUwU BOBA TEA", 350));
+            menuItems.Add(new MenuItems("5way", "5-WAY", 375));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {
@@ -171,21 +184,23 @@ namespace register_calculator
             this.MinimumSize = new System.Drawing.Size(500, 100 + (menuItems.Count * padding));
 
 #if CREAMPIES
-            this.Text = "CreamPies";
+            this.Text = "CreamPies Calculator";
 #elif UPNATOM
             this.Text = "Up N Atom Calculator";
 #elif UWUCAFE
-            this.Text = "UWU Cafe";
+            this.Text = "UWU Cafe Calculator";
 #elif MATERIALS
-            this.Text = "Materials";
+            this.Text = "Materials Calculator";
 #elif BURGERSHOT
-            this.Text = "Burger Shot";
+            this.Text = "Burger Shot Calculator";
 #elif HOGSPUB
-            this.Text = "Hogs Pub & Restaurant";
+            this.Text = "Hogs Pub & Restaurant Calculator";
 #elif BAHAMAMAMAS
-            this.Text = "Bahama Mamas";
+            this.Text = "Bahama Mamas Calculator";
 #elif TACOSHOP
-            this.Text = "Taco Shop";
+            this.Text = "Taco Shop Calculator";
+#elif POPSDINER
+            this.Text = "Pops Diner Calculator";
 #endif
 
 
@@ -216,6 +231,11 @@ namespace register_calculator
                     }
                 }
             }
+
+#if POPSDINER
+            if (total >= 100000) total = (int)((float)total * 0.9);
+#endif
+
             Clipboard.SetText($"{total:n0}\n{total_string}");
             MessageBox.Show("The order has been copied to your clipboard, to paste Right Click and Paste or ctrl + v", "Final", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
