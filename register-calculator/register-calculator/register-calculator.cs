@@ -103,30 +103,29 @@ namespace register_calculator
 #endif
 
 #if BAHAMAMAMAS
-            menuItems.Add(new MenuItems("ajs", "Angelic Jell-O shot", 100));
-            menuItems.Add(new MenuItems("br", "Black Russian", 150));
-            menuItems.Add(new MenuItems("rose", "Rosè", 200));
-            menuItems.Add(new MenuItems("pbm", "Playboy Martini", 250));
-            menuItems.Add(new MenuItems("azv", "Azul vodka", 300));
+            menuItems.Add(new MenuItems("bbf", "Blueberry Faygo", 150));
+            menuItems.Add(new MenuItems("ajs", "Angelic Jell-O shot", 200));
+            menuItems.Add(new MenuItems("br", "Black Russian", 350));
+            menuItems.Add(new MenuItems("pbm", "Playboy Martini", 300));
             menuItems.Add(new MenuItems("maitai", "Mai Tai", 300));
-            menuItems.Add(new MenuItems("redwine", "Red Wine", 350));
+            menuItems.Add(new MenuItems("redwine", "Red Wine", 500));
             menuItems.Add(new MenuItems("nikkirita", "Nikki Rita", 400));
-            menuItems.Add(new MenuItems("bsb", "Bahamas signature Bacardi", 450));
-            menuItems.Add(new MenuItems("henny", "Henny", 500));
+            menuItems.Add(new MenuItems("bsb", "Bahamas signature Bacardi", 500));
+            menuItems.Add(new MenuItems("henny", "Henny", 1000));
             menuItems.Add(new MenuItems("juansof", "Juans Old Fashioned", 500));
-            menuItems.Add(new MenuItems("brianswaste", "Brians Waste", 550));
-            menuItems.Add(new MenuItems("1942don", "1942 Don", 1000));
-            menuItems.Add(new MenuItems("comebackcrackle", "Come Back Crackle Jacks", 100));
-            menuItems.Add(new MenuItems("backbreakerbacon", "Back Breaker Bacon", 150));
+            menuItems.Add(new MenuItems("brianswaste", "Brians Waste", 250));
+            menuItems.Add(new MenuItems("1942don", "1942 Don", 10000));
+            menuItems.Add(new MenuItems("comebackcrackle", "Come Back Crackle Jacks", 200));
+            menuItems.Add(new MenuItems("backbreakerbacon", "Back Breaker Bacon", 200));
             menuItems.Add(new MenuItems("ischs", "I Should Call Her Salad", 200));
-            menuItems.Add(new MenuItems("bamiastew", "Bamia stew", 200));
-            menuItems.Add(new MenuItems("juanslasagna", "Juan’s Lasagna", 200));
-            menuItems.Add(new MenuItems("skyclubwings", "Skyclub Wings", 250));
-            menuItems.Add(new MenuItems("missherdearmeat", "Miss Her Dear Meat", 250));
-            menuItems.Add(new MenuItems("infusedlimoncello", "Infused Limoncello Sorbet", 300));
-            menuItems.Add(new MenuItems("juanpizza", "Juan’s Pizza", 300));
-            menuItems.Add(new MenuItems("stikkinikki", "Stikki Nikki", 300));
-            menuItems.Add(new MenuItems("briansbrains", "Brians Brains", 400));
+            menuItems.Add(new MenuItems("bamiastew", "Hot Wings", 250));
+            menuItems.Add(new MenuItems("mhdm", "Miss Her Dear Meet", 250));
+            menuItems.Add(new MenuItems("jampat", "Jamaican Patty", 300));
+            menuItems.Add(new MenuItems("jp", "Juan's Pizza", 300));
+            menuItems.Add(new MenuItems("jl", "Juan's Lasagna", 300));
+            menuItems.Add(new MenuItems("stikkinikki", "Stikki Nikki", 350));
+            menuItems.Add(new MenuItems("briansbrian", "Brian's Brian", 400));
+            menuItems.Add(new MenuItems("briskomelt", "Brisko Melt", 500));
             menuItems.Add(new MenuItems("allavodka", "Alla Vodka", 500));
 #endif
 #if TACOSHOP
