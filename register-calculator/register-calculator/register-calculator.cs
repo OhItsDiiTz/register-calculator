@@ -92,13 +92,18 @@ namespace register_calculator
 #endif
 
 #if HOGSPUB
-            menuItems.Add(new MenuItems("cf", "Chocolate Frogs", 300));
-            menuItems.Add(new MenuItems("bb", "Butterbeer", 300));
-            menuItems.Add(new MenuItems("ogjv", "OG Juice Vape", 300));
-            menuItems.Add(new MenuItems("ebf", "Everything Bean Flavour", 300));
-            menuItems.Add(new MenuItems("lep", "Lizzys Enchanted Potion", 300));
-            menuItems.Add(new MenuItems("lgof", "Lizzys Goblet of Fire", 300));
-            menuItems.Add(new MenuItems("gw", "Grizzwoods", 300));
+            menuItems.Add(new MenuItems("cf", "Chocolate Frogs", 200));
+            menuItems.Add(new MenuItems("ded", "Death Eaters Delight", 200));
+            menuItems.Add(new MenuItems("va", "Venoms Ale", 200));
+            menuItems.Add(new MenuItems("lep", "Lizzy's Enchanted Potion", 200));
+            menuItems.Add(new MenuItems("drbr", "Dragons Breath", 200));
+            menuItems.Add(new MenuItems("lxglp", "Lizz x Grizz Love Potion", 200));
+            menuItems.Add(new MenuItems("bb", "Butterbeer", 200));
+            menuItems.Add(new MenuItems("ebf", "Everything Bean Flavor", 200));
+            menuItems.Add(new MenuItems("lgof", "Lizzy's Goblet of Fire", 200));
+            menuItems.Add(new MenuItems("gsct", "Golden Snitch Chocolate Truffle", 200));
+            menuItems.Add(new MenuItems("gw", "Grizzwoods", 200));
+            menuItems.Add(new MenuItems("ojv", "Og Juice Vape", 200));
             menuItems.Add(new MenuItems("rd", "Rusty Dust", 200));
 #endif
 
