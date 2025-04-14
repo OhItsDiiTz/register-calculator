@@ -154,6 +154,20 @@ namespace register_calculator
             menuItems.Add(new MenuItems("5way", "5-WAY", 375));
 #endif
 
+#if NOSBAR
+            menuItems.Add(new MenuItems("ss", "Seren Special", 3500));
+            menuItems.Add(new MenuItems("cs", "Celena Special", 3000));
+            menuItems.Add(new MenuItems("tokyoswi", "Tokyo Swift", 300));
+            menuItems.Add(new MenuItems("wrenchfries", "Wrench Fries", 250));
+            menuItems.Add(new MenuItems("geargyoza", "Gear Gyoza", 200));
+            menuItems.Add(new MenuItems("lssun", "LS Sunrise", 250));
+            menuItems.Add(new MenuItems("moo", "Mug of Oil", 250));
+            menuItems.Add(new MenuItems("pitstoppoke", "Pit Stop Poke", 200));
+            menuItems.Add(new MenuItems("bumbao", "Bumper Bao", 200));
+            menuItems.Add(new MenuItems("sunrsak", "Sunrise Sake", 300));
+            menuItems.Add(new MenuItems("rsfortune", "RS Fortune Cookie", 300));
+#endif
+
             int count = 0;
             foreach (MenuItems item in menuItems)
             {
@@ -205,6 +219,8 @@ namespace register_calculator
             this.Text = "Taco Shop Calculator";
 #elif POPSDINER
             this.Text = "Pops Diner Calculator";
+#elif NOSBAR
+            this.Text = "NOS BAR Calculator";
 #endif
 
 
